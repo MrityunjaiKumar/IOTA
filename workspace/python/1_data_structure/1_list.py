@@ -23,3 +23,13 @@ print("x remove = {}".format(x))
 
 # getting an element, for example get 0th element
 print(x[0])
+
+print("------------------")
+
+# iterate list
+for d in x :
+    print(d)
+print("____________________")
+# iterate list with index
+for i,d in enumerate(x):
+    print("{} <==>{}".format(i,d))
