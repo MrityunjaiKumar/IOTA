@@ -33,5 +33,13 @@ print("All values type {}".format(type(x.values())))
 for key,value in x.items():
     print("{} <--> {}".format(key,value))
 
+print("-----------------------------------------------")
 # JSON
+import json
+r = json.dumps(x)
+print("r = {}".format(r))
+print("type(r) = {}".format(type(r)))
+loaded_data= json.loads(r)
 
+print("loaded_data = {}".format(loaded_data))
+print("type(loaded_data) = {}".format(type(loaded_data)))
