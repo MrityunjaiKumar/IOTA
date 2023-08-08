@@ -8,7 +8,6 @@
 
 
 # outer loop to handle number of rows
-# n in this case
 for i in range(0, 5):
 
   # inner loop to handle number of columns
