@@ -33,3 +33,9 @@ print("____________________")
 # iterate list with index
 for i,d in enumerate(x):
     print("{} <==>{}".format(i,d))
+
+
+# max
+
+print("max = {}".format(max(x)))
+print("min = {}".format(min(x)))
