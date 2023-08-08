@@ -7,6 +7,8 @@ app =Flask(__name__)
 def home():
     return "Hi form AID-IOT"
 
+
+## http://127.0.0.1:5000/isPrime/11
 @app.route("/isPrime/<num>",methods=['GET'])
 def isPrime(num=None):
     if(num==None):
